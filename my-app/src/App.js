@@ -1,11 +1,9 @@
-import './App.css';
-import FormOfClient from './components/FormOfClient';
+// import './App.css';
+import MainForm from './components/MainForm';
 
 function App() {
   return (
-    <div className="App">
-      <FormOfClient />
-    </div>
+    <MainForm />
   );
 }
 
