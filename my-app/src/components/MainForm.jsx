@@ -25,8 +25,11 @@ function MainForm() {
   const onSubmit = data => {
     if (data) {
       reset()
-      console.log(data)
       setShow(true)
+    }
+    else {
+      setShow(false)
+
     }
   }
 
