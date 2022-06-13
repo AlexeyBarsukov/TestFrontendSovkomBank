@@ -80,7 +80,7 @@ function MainForm() {
                   },
                   maxLength: {
                     value: 12,
-                    message: 'Введите телефона в правильном формате, не используя скобки(), тире (-) и пробелы'
+                    message: 'Кол-во цифр 11, не используя скобки(), тире (-) и пробелы'
                   }
                 })} value={mobile} onChange={(e) => setMobile(e.target.value)} />
               </Form.Group>
